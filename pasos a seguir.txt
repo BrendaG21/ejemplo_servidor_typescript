@@ -1,0 +1,37 @@
+Crear una carpeta vacia 
+npm init -y 
+code .
+
+En consola de visual studio code
+npm i --save typescript ts-node-dev y enter
+tambien instalar 
+npm i --save express
+Despues de terminar de instalar
+creamos el archivo llamado 
+index.ts
+
+Dentro del archivo index.ts 
+
+//Transpilar 
+//EcmaScript EsModules
+const express = require("express")
+const app = express();
+ const example = function ()
+{
+console.log("estoy escuchando")
+}
+
+app.listen(9000, example)
+
+
+Despues instalar
+npm i -D @types/express
+
+
+Agregar a scripts en package.json
+"dev": "ts-node-dev index.ts"
+y despues ejecutamos la aplicacion en la consola
+npm run dev
+
+
+crear un archivo .gitignore y escribir node_modules/ para que suba a git sin node y el package-lock.json 
