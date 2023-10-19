@@ -35,3 +35,8 @@ npm run dev
 
 
 crear un archivo .gitignore y escribir node_modules/ para que suba a git sin node y el package-lock.json 
+
+creamos las carpetas que estan dentro de SRC 
+
+Primer libreria que vamos a trabajar e instalar 
+npm  install cors 
